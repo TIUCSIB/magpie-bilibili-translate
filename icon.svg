@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path d="M21 13 L13 5" stroke="#00AEEC" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M43 13 L51 5" stroke="#00AEEC" stroke-width="4.5" stroke-linecap="round"/>
+  <rect x="7" y="15" width="50" height="37" rx="10" fill="#00AEEC"/>
+  <circle cx="24" cy="33" r="4.2" fill="#fff"/>
+  <circle cx="40" cy="33" r="4.2" fill="#fff"/>
+  <circle cx="46" cy="47" r="13" fill="#FB7299" stroke="#fff" stroke-width="2.5"/>
+  <text x="46" y="52.5" font-family="'Microsoft YaHei',sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">译</text>
+</svg>

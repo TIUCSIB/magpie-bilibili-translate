@@ -1,0 +1,28 @@
+{
+  "name": "opencode-bili-translate",
+  "version": "0.1.0",
+  "description": "OpenCode/Magpie provider plugin: bilibili Index-Translate free public translation API",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "index-translate",
+    "bilibili",
+    "translation"
+  ],
+  "license": "MIT",
+  "magpie": {
+    "maxConcurrency": 4,
+    "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+IDxwYXRoIGQ9Ik0yMSAxMyBMMTMgNSIgc3Ryb2tlPSIjMDBBRUVDIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+IDxwYXRoIGQ9Ik00MyAxMyBMNTEgNSIgc3Ryb2tlPSIjMDBBRUVDIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+IDxyZWN0IHg9IjciIHk9IjE1IiB3aWR0aD0iNTAiIGhlaWdodD0iMzciIHJ4PSIxMCIgZmlsbD0iIzAwQUVFQyIvPiA8Y2lyY2xlIGN4PSIyNCIgY3k9IjMzIiByPSI0LjIiIGZpbGw9IiNmZmYiLz4gPGNpcmNsZSBjeD0iNDAiIGN5PSIzMyIgcj0iNC4yIiBmaWxsPSIjZmZmIi8+IDxjaXJjbGUgY3g9IjQ2IiBjeT0iNDciIHI9IjEzIiBmaWxsPSIjRkI3Mjk5IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi41Ii8+IDx0ZXh0IHg9IjQ2IiB5PSI1Mi41IiBmb250LWZhbWlseT0iJ01pY3Jvc29mdCBZYUhlaScsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+6K+RPC90ZXh0PiA8L3N2Zz4="
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TIUCSIB/magpie-biliTranslate.git"
+  }
+}
