@@ -78,7 +78,7 @@ magpie provider test bili-translate                     # ✓ chat · Index-Tran
 
 ## 行为说明
 
-- 每个请求携带 UA `Index-Translate-Client/1.0 opencode-bili-translate/0.1.0`,与官方脚本一致
+- 每个请求携带 UA `Index-Translate-Client/1.0 magpie-bilibili-translate/0.1.0`,与官方脚本一致
 - 免费公共服务,插件默认 `maxConcurrency: 4`(可在供应商设置中调整)
 - 无 `auth.usage` 钩子:免费服务无套餐概念;模型列表静态声明(上游无公开的动态 /models 列表)
 
@@ -88,7 +88,7 @@ magpie provider test bili-translate                     # ✓ chat · Index-Tran
 node verify.mjs
 # PROVIDER_OK  https://index-translate.bilibili.com/v1 | Index-Translate-35B-A3B, Index-Translate-9B, Index-Translate-2B
 # BASEURL_OK   https://index-translate.bilibili.com/v1
-# UA_OK        Index-Translate-Client/1.0 opencode-bili-translate/0.1.0
+# UA_OK        Index-Translate-Client/1.0 magpie-bilibili-translate/0.1.0
 # THINKING_OK  {"enable_thinking":false}
 ```
 

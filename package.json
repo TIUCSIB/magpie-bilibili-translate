@@ -1,5 +1,5 @@
 {
-  "name": "opencode-bili-translate",
+  "name": "magpie-bilibili-translate",
   "version": "0.1.0",
   "description": "OpenCode/Magpie provider plugin: bilibili Index-Translate free public translation API",
   "type": "module",

@@ -1,9 +1,9 @@
-// opencode-bili-translate — 把 bilibili Index-Translate 免费公共 API 接入 magpie/OpenCode
+// magpie-bilibili-translate — 把 bilibili Index-Translate 免费公共 API 接入 magpie/OpenCode
 // 端点与请求细节来自官方脚本: github.com/bilibili/Index-Translate (inference/llm/call_api.py)
 
 const PROVIDER = "bili-translate"
 const BASE = "https://index-translate.bilibili.com/v1"
-const UA = "Index-Translate-Client/1.0 opencode-bili-translate/0.1.0"
+const UA = "Index-Translate-Client/1.0 magpie-bilibili-translate/0.1.0"
 
 // 站点输入限 8000 字符;按 token 保守声明
 const CONTEXT_LIMIT = 16384
